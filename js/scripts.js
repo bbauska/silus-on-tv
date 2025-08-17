@@ -103,7 +103,7 @@ const vcrEffect = new VCREffect(canvas, {
   blur: 1
 });
 /* 8 videos to display on tv */
-const videoIds = ["c4CVKbVtTsc", "143aXLat70E", "J5SSsT1O9gE", "dAiomIGB3qo", "lk6iJNSv-vY", "7PgJLyeb6sM", "wz0A7m1euy0", "IiR9uO0Ye1I"];
+const videoIds = ["M0RAHUdc560", "bddT5zXl1CU", "ftR_iB4gSpE", "q6B-5OZZACE", "BAaRowsoXq4", "c5xY2MGY4ZY", "yeca_1l2gKM", "z0UUyjLCxs0"];
 let currentVideoIndex = 0;
 const iframe = document.getElementById("ytplayer");
 const snowEffect = document.querySelector(".snow-effect");
