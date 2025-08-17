@@ -102,6 +102,7 @@ const vcrEffect = new VCREffect(canvas, {
   fps: 60,
   blur: 1
 });
+/* 8 videos to display on tv */
 const videoIds = ["c4CVKbVtTsc", "143aXLat70E", "J5SSsT1O9gE", "dAiomIGB3qo", "lk6iJNSv-vY", "7PgJLyeb6sM", "wz0A7m1euy0", "IiR9uO0Ye1I"];
 let currentVideoIndex = 0;
 const iframe = document.getElementById("ytplayer");
@@ -115,7 +116,7 @@ function switchToNextVideo() {
     snowEffect.style.opacity = 0;
   }, 2000); // 2 seconds of static before switching
 }
-
+/* 20 seconds each */
 iframe.addEventListener("load", () => {
   setTimeout(switchToNextVideo, 20000); 
 });
